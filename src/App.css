@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Sahel;
+  src: url('../public/fonts/Sahel.eot');
+  src: url('../public/fonts/Sahel.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/Sahel.woff2') format('woff2'),
+       url('../public/fonts/Sahel.woff') format('woff'),
+       url('../public/fonts/Sahel.ttf') format('truetype');
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: Sahel;
+  src: url('../public/fonts/Sahel-Bold.eot');
+  src: url('../public/fonts/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/Sahel-Bold.woff2') format('woff2'),
+       url('../public/fonts/Sahel-Bold.woff') format('woff'),
+       url('../public/fonts/Sahel-Bold.ttf') format('truetype');
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Sahel;
+  src: url('../public/fonts/Sahel-Light.eot');
+  src: url('../public/fonts/Sahel-Light.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/Sahel-Light.woff2') format('woff2'),  
+       url('../public/fonts/Sahel-Light.woff') format('woff'),
+       url('../public/fonts/Sahel-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+      
+@font-face {
+  font-family: Sahel;
+  src: url('../public/fonts/Sahel-SemiBold.eot');
+  src: url('../public/fonts/Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/Sahel-SemiBold.woff2') format('woff2'),  
+       url('../public/fonts/Sahel-SemiBold.woff') format('woff'),
+       url('../public/fonts/Sahel-SemiBold.ttf') format('truetype');
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Sahel;
+  src: url('../public/fonts/Sahel-Black.eot');
+  src: url('../public/fonts/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/Sahel-Black.woff2') format('woff2'),  
+       url('../public/fonts/Sahel-Black.woff') format('woff'),
+       url('../public/fonts/Sahel-Black.ttf') format('truetype');
+  font-weight: 900;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*{
+  font-family: Sahel;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
