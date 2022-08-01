@@ -1,0 +1,34 @@
+.CenterTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.maginRightCard{
+    margin-right: 8%;
+}
+
+.rightPart{margin-right: 2%; 
+margin-left: 2%;
+}
+
+@media only screen and ( min-width: 375px) and ( max-width: 576px) {
+    .showIcon {
+    display: none;
+    }
+  
+  }
+
+@media only screen and ( min-width: 576px) and ( max-width:1500px) {
+    .showIconL {
+    display: none;
+    }
+  
+  }
+
+  .border1{
+    border: 2px dashed #aba8a8;
+ 
+  }
+
+
+  

@@ -1,0 +1,33 @@
+.login{
+    overflow: hidden;
+}
+
+.ModalBack{
+    background-color: rgb(92, 91, 91);
+    height: 100% ;
+}
+
+.ItemCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBotton{
+    display: flex;
+    justify-content:end;
+}
+
+@media only screen and ( min-width: 375px) and ( max-width: 576px) {
+    .showIcon {
+    display: none;
+    }
+  
+  }
+
+  @media only screen and ( min-width: 576px) and ( max-width:1500px) {
+    .showIconL {
+    display: none;
+    }
+  
+  }

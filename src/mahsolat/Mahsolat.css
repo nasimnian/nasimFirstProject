@@ -1,0 +1,19 @@
+.mainCard{
+  margin: 23px;
+}
+
+.cardd{
+  padding: 17px;
+}
+
+
+.shadowCard {
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
